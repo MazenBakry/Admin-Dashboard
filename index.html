@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="sidebar">
+    <a class="logo" onclick="navControl()">
+      <img src="images/view-dashboard-variant.svg" alt="Dashboard Icon" width="50px" height="50px">
+      <div class="logo-text">Dashboard</div>
+    </a>
+    <div class="navigation">
+      <a href="#Home" id="home"><img src="images/1-home.svg" alt="Home Icon" width="25px" height="25px">Home</a>
+      <a href="#Profile" id="profile"><img src="/images/10-profile.svg" alt="Profile Icon" width="25px" height="25px">Profile</a>
+      <a href="#Messages" id="messages"><img src="images/3-messages.svg" alt="Messages Icon" width="25px" height="25px">Messages</a>
+      <a href="#History" id="history"><img src="images/4-history.svg" alt="History Icon" width="25px" height="25px">History</a>
+      <a href="#Tasks" id="tasks"><img src="images/5-tasks.svg" alt="Tasks Icon" width="25px" height="25px">Tasks</a>
+      <a href="#Communities" id="communities"><img src="images/6-communities.svg" alt="Communities Icon" width="25px" height="25px">Communities</a>
+      <div class="break"></div>
+      <a href="#Settings" id="settings"><img src="images/7-settings.svg" alt="Settings Icon" width="25px" height="25px">Settings</a>
+      <a href="#Support" id="support"><img src="images/8-support.svg" alt="Support Icon" width="25px" height="25px">Support</a>
+      <a href="#Privacy" id="privacy"><img src="images/9-privacy.svg" alt="Profile Icon" width="25px" height="25px">Privacy</a>
+    </div>
+  </div>
+  <div class="header">
+    <div class="searchbar">
+      <label for="search"><img src="images/0-search.svg" alt="Search" width="35px" height="35px"></label>
+      <input type="text" id="search" placeholder="Search">
+    </div>
+    <div class="account">
+      <div class="notifications"><img src="images/0-notifications.svg" alt="Notifications" width="35px" height="35px"></div>
+      <div class="picture"><img src="images/Dog.jpg" alt="Admin Picture" width="50px" height="50px"></div>
+      <div class="name">Admin</div>
+    </div>
+    <div class="welcome">
+      <div class="picture"><img src="images/Dog.jpg" alt="Admin Picture" width="80px" height="80px"></div>
+      <div class="greeting">
+        <div id="hi">Hi there,</div>
+        <div id="name">Admin</div>
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="button">New</button>
+      <button class="button">Upload</button>
+      <button class="button">Share</button>
+    </div>
+  </div>
+  <div class="main-area">
+    <div class="area-name">Your Projects</div>
+    <div class="projects-area">
+      <div class="project">
+        <div class="name">Project #1</div>
+        <div class="text">Lorem ipsum dolor sit amet.</div>
+        <div class="buttons">
+          <div class="fav"><img src="images/0-fav.svg" alt="Favorite Icon" width="25px" height="25px"></div>
+          <div class="watch"><img src="images/0-watch.svg" alt="Watch Icon" width="25px" height="25px"></div>
+          <div class="fork"><img src="images/0-fork.svg" alt="Fork Icon" width="25px" height="25px"></div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="name">Project #2</div>
+        <div class="text"></div>
+        <div class="buttons">
+          <div class="fav"><img src="images/0-fav.svg" alt="Favorite Icon" width="25px" height="25px"></div>
+          <div class="watch"><img src="images/0-watch.svg" alt="Watch Icon" width="25px" height="25px"></div>
+          <div class="fork"><img src="images/0-fork.svg" alt="Fork Icon" width="25px" height="25px"></div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="name">Project #3</div>
+        <div class="text"></div>
+        <div class="buttons">
+          <div class="fav"><img src="images/0-fav.svg" alt="Favorite Icon" width="25px" height="25px"></div>
+          <div class="watch"><img src="images/0-watch.svg" alt="Watch Icon" width="25px" height="25px"></div>
+          <div class="fork"><img src="images/0-fork.svg" alt="Fork Icon" width="25px" height="25px"></div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="name">Project #4</div>
+        <div class="text"></div>
+        <div class="buttons">
+          <div class="fav"><img src="images/0-fav.svg" alt="Favorite Icon" width="25px" height="25px"></div>
+          <div class="watch"><img src="images/0-watch.svg" alt="Watch Icon" width="25px" height="25px"></div>
+          <div class="fork"><img src="images/0-fork.svg" alt="Fork Icon" width="25px" height="25px"></div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="name">Project #5</div>
+        <div class="text"></div>
+        <div class="buttons">
+          <div class="fav"><img src="images/0-fav.svg" alt="Favorite Icon" width="25px" height="25px"></div>
+          <div class="watch"><img src="images/0-watch.svg" alt="Watch Icon" width="25px" height="25px"></div>
+          <div class="fork"><img src="images/0-fork.svg" alt="Fork Icon" width="25px" height="25px"></div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="name">Project #6</div>
+        <div class="text"></div>
+        <div class="buttons">
+          <div class="fav"><img src="images/0-fav.svg" alt="Favorite Icon" width="25px" height="25px"></div>
+          <div class="watch"><img src="images/0-watch.svg" alt="Watch Icon" width="25px" height="25px"></div>
+          <div class="fork"><img src="images/0-fork.svg" alt="Fork Icon" width="25px" height="25px"></div>
+        </div>
+      </div>
+    </div>
+    <div class="area-name">Announcements</div>
+    <div class="side-area">
+      <div class="announcements">
+        <a class="announcement" href="#Announcement1">
+          <div class="name">Announcement 1</div>
+          <div class="text">New Feature Release: We are excited to announce the launch of a powerful new feature that will revolutionize your workflow! Stay tuned for more details and get ready to take your admin tasks to the next level.</div>
+        </a>
+        <div class="separator"></div>
+        <a class="announcement" href="#Announcement2">
+          <div class="name">Announcement 2</div>
+          <div class="text">System Maintenance: Attention admins! We will be performing scheduled maintenance on 18/7/2023 from 4:10 PM to 4:30 PM. During this period, the admin dashboard may experience intermittent downtime. We apologize for any inconvenience caused and appreciate your patience.</div>
+        </a>
+        <div class="separator"></div>
+        <a class="announcement" href="#Announcement3">
+          <div class="name">Announcement 3</div>
+          <div class="text">Mobile App Launch: Great news for admins on the go! We are thrilled to announce the release of our mobile app for iOS and Android devices. Now you can manage your admin tasks conveniently from anywhere, anytime. Download the app from the App Store or Google Play today.</div>
+        </a>
+      </div>
+      <div class="area-name secondary">Trending</div>
+      <div class="trendings">
+        <a class="trending" href="#@Admin">
+          <div class="picture"><img src="images/Dog.jpg" alt="Admin" width="45px" height="45px"></div>
+          <div class="profile">
+            <div class="name">@Admin</div>
+            <div class="description">A Golden Dog</div>
+          </div>
+        </a>
+        <a class="trending" href="#Person1">
+          <div class="picture"><img src="images/2-person.svg" alt="Person 1" width="45px" height="45px"></div>
+          <div class="profile">
+            <div class="name">@Person</div>
+            <div class="description">I'm Luke</div>
+          </div>
+        </a>
+        <a class="trending" href="#Person2">
+          <div class="picture"><img src="images/2-person.svg" alt="Person 2" width="45px" height="45px"></div>
+          <div class="profile">
+            <div class="name">@Person</div>
+            <div class="description">I'm Hannah</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div> 
+</body>
+</html>
